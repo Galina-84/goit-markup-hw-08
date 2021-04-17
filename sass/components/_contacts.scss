@@ -45,3 +45,25 @@
     color: var(--accent-color);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    margin-left: 0;
+  }
+  .contacts__link-email {
+    margin-bottom: 10px;
+  }
+  .contacts__icon-email {
+    margin-bottom: 10px;
+    width: 14px;
+    height: 10px;
+  }
+  .contacts__icon-tel {
+    width: 10px;
+    height: 14px;
+  }
+  .contacts__item-tel,
+  .contacts__item-email {
+    height: 14px;
+  }
+}
