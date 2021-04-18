@@ -130,10 +130,8 @@
   display: flex;
 }
 
-.mobile-menu-social__item {
-  .mobile-menu-social__item:not(:last-child) {
-    padding-right: 10px;
-  }
+.mobile-menu-social__item:not(:last-child) {
+  padding-right: 10px;
 
   &::after {
     content: "";
@@ -178,8 +176,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  // .header {
-  //   display: flex;
-  //   align-items: center;
-  // }
+  .header {
+    display: flex;
+    align-items: center;
+  }
 }
