@@ -6,15 +6,12 @@
 .contacts__item-email {
   display: flex;
   align-items: center;
-  width: 161px;
-  height: 16px;
   margin-right: 30px;
 }
 .contacts__item-tel {
   display: flex;
   align-items: center;
   width: 142px;
-  height: 16px;
 }
 .contacts__link-tel,
 .contacts__link-email {
@@ -27,6 +24,7 @@
   color: #757575;
 }
 .contacts__img {
+  margin-right: 10px;
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
