@@ -46,7 +46,28 @@
 
 @media screen and (min-width: 768px) {
   .contacts {
-    margin-left: 0;
+    margin-left: auto;
+  }
+
+  .contacts__item-email {
+    display: flex;
+    align-items: center;
+  }
+  .contacts__item-tel {
+    display: flex;
+    align-items: center;
+    width: 123px;
+  }
+
+  .contacts__link-tel,
+  .contacts__link-email {
+    margin-left: auto;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
   .contacts__link-email {
     margin-bottom: 10px;
