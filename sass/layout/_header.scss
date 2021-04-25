@@ -3,11 +3,6 @@
   padding-bottom: 16px;
   height: 60px;
   border-bottom: 1px solid #ececec;
-
-  & .container {
-    display: flex;
-    align-items: center;
-  }
 }
 
 .navigation-list {
@@ -165,7 +160,6 @@
   .contacts {
     display: block;
   }
-
   .header {
     display: flex;
     align-items: center;
