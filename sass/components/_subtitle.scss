@@ -8,6 +8,7 @@
   text-align: center;
   color: #212121;
 }
+
 .advantages-title {
   margin-bottom: 10px;
   font-family: var(--main-font);
@@ -15,8 +16,15 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #212121;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-title {
+    text-align: start;
+  }
 }
 
 .img-title {
