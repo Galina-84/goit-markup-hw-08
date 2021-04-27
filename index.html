@@ -157,7 +157,7 @@
             </div>
         </section>
         <!-- what are we doing -->
-        <!-- <section class="work">
+        <section class="work">
             <div class="container">
                 <h3 class="section-title">Чем мы занимаемся</h3>
                 <ul class="work-list list">
@@ -178,14 +178,28 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- our team -->
-        <!-- <section class="our-team">
+        <section class="our-team">
             <div class="container"> 
                 <h3 class="section-title">Наша команда</h3>
                 <ul class="team-list list">
                     <li class="team-list__item">
-                        <img class="team-list__img" src="./images/ourteam/igor.jpg" alt="мужчина с бородой" width="270">
+                        <picture>
+                            <source 
+                                srcset="./images/ourteam/igor.webp 1x, ./images/ourteam/img-igor-desktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source 
+                                srcset="./images/ourteam/igor.jpg 1x, ./images/ourteam/img-igor-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/ourteam/img-igor-tablet.jpg 1x, ./images/ourteam/img-igor-tablet@2x.jpg 2x"
+                                media="min-width: 768px">
+                            <source
+                                srcset="./images/ourteam/img-igor-mobile.jpg 1x, ./images/ourteam/img-igor-mobile@2x.jpg 2x"
+                                media="min-width: 480px">
+                            <img class="team-list__img" src="./images/ourteam/img-igor-mobile.jpg 1x" alt="мужчина с бородой">
+                        </picture>
                         <div class="team-list-content">
                             <h4 class="team-title">Игорь Демьяненко</h4>
                             <p class="team-description" lang="en">Prodact Designer</p>
@@ -334,7 +348,7 @@
                     </li>
                 </ul>
             </div>
-        </section>  -->
+        </section> 
         <!-- clients -->
         <!-- <section class="clients">
             <div class="container">
