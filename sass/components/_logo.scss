@@ -9,6 +9,11 @@
   & .logo__accent {
     color: var(--accent-color);
   }
+
+  & .logo_theme-dark {
+    margin-right: auto;
+    color: white;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -24,10 +29,5 @@
 
   .logo__accent {
     color: var(--accent-color);
-  }
-
-  &_theme-dark {
-    margin-right: auto;
-    color: white;
   }
 }
