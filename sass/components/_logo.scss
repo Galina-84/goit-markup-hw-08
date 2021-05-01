@@ -1,7 +1,7 @@
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1, 16;
   letter-spacing: 0.03em;
   color: black;
@@ -10,8 +10,8 @@
     color: var(--accent-color);
   }
 
-  & .logo_theme-dark {
-    margin-right: auto;
+  &_theme-dark {
+    margin: 0 auto;
     color: white;
   }
 }
@@ -19,15 +19,11 @@
 @media screen and (min-width: 1200px) {
   .logo {
     margin-right: 93px;
-    font-family: var(--secondary-font);
-    font-weight: 700;
     font-size: 26px;
     line-height: 1, 19;
-    letter-spacing: 0.03em;
-    color: black;
-  }
 
-  .logo__accent {
-    color: var(--accent-color);
+    &_theme-dark {
+      margin-right: auto;
+    }
   }
 }
